@@ -1,0 +1,95 @@
+<html>
+    
+<head>
+<title>Crowdbox</title>
+<link rel="stylesheet" href="/css/crowdbox.css">
+<script src="/lib/jquery-2.1.4.min.js"></script>
+<script src="/js/crowdbox.js"></script>
+     
+</head>
+    
+<!-- Visible and clickable page content -->
+<body>
+    
+
+    <div Id="topCenter" onclick="topTransition();">
+        crowdbox
+        </div>
+    
+    <div Id="rightCenter">
+        sign up
+        </div>
+    
+    <div Id="bottomCenter"> 
+        search
+        </div>
+    
+    <div Id="leftCenter">
+        sign in
+    </div>
+    
+
+    
+
+    
+</body>
+</html>
+
+
+CSS
+
+html {
+    background: url(/img/crowdBox_fixedImage.png) no-repeat center center fixed;
+}
+
+body {
+    overflow: hidden;
+}
+
+#topCenter {
+    height: 8%;
+    width: 14%;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #808080;
+    text-align: center;
+    bottom: 85%;
+    position: absolute;
+    right: 43%   
+}
+
+#rightCenter {
+    height: 8%;
+    width: 10%;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #808080;
+    text-align: center;
+    bottom: 45%;
+    position: absolute;
+    right: 20%;   
+ }
+
+#bottomCenter {
+    height: 8%;
+    width: 9%;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #808080;
+    text-align: center;
+    bottom: 8%;
+    position: absolute;
+    right: 47%   
+}
+
+#leftCenter {
+    height: 8%;
+    width: 10%;
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #808080;
+    text-align: center;
+    bottom: 45%;
+    position: absolute;
+    right: 74%; 
+}

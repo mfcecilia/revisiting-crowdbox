@@ -1,0 +1,35 @@
+Full page image super zoomed in and not centered
+
+
+<html>
+<head>
+<title>Crowdbox</title>
+<link rel="stylesheet" href="crowdbox.css">
+    
+<div id="bg">
+    <img src="crowdbox_image_01.jpg" id="bg" alt="">
+</div>
+ 
+</head>    
+</html>
+
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    /* Preserve aspect ratio*/
+    min-width: 100%;
+    min-height: 100%;
+}
+#bg img {
+    position: absolute;
+    top: 0;
+    left: -270;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}

@@ -1,0 +1,12 @@
+larger background image
+	extra window size on all sides
+	adjust css fixed position settings to only show main window
+
+hide divs with extra info outside original window
+	how the heck to i do that
+
+reveal hidden divs on scroll end
+
+find some tutorial vids
+
+clickable divs

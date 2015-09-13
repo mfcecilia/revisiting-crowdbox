@@ -1,0 +1,16 @@
+Text align center in it's most basic form with no css involved
+
+
+<html>
+<head>
+<title>Crowdbox</title>
+<link rel="stylesheet" href="crowdbox.css">
+    
+<div style="text-align: center">
+  <div style="text-align: center; margin: 0 auto; width: 20%">
+    Your text here
+  </div>
+</div>
+    
+</head>    
+</html>

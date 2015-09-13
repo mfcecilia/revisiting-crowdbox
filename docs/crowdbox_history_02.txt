@@ -1,0 +1,17 @@
+Full page background with entire image without scrolling
+
+<html>
+<head>
+<title>Crowdbox</title>
+<link rel="stylesheet" href="crowdbox.css">
+
+</head>    
+</html>
+
+html {
+    background: url(crowdbox_image_01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
