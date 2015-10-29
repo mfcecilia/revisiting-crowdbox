@@ -1,5 +1,5 @@
 html {
-    background: url(/revisiting-crowdbox/img/crowdBox_fixedImage.png);
+    background: url(/img/crowdBox_fixedImage.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -13,8 +13,13 @@ html {
     height: 80%;
     width: 800px;
     position: relative;
-    left: 25%;
-    bottom: -35%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
 }
 
 #signIn {

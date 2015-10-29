@@ -16,3 +16,5 @@ $("#bottomCenter").click(function(){
         scrollTop: $($.attr(this, '#search')).offset().top
     }, 1000);
 });
+
+document.getElementById("bottomCenter").style.opacity="1";
