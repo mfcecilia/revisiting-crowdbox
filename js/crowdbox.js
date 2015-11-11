@@ -3,18 +3,23 @@ Scroll to the start position when
 the site loads and hide the excess content.
 **/
 $(document).ready(function(){
-    $('#signIn, #signUp, #crowdBox, #search').css('opacity', '0.0');
+  //  $('#signIn, #signUp, #crowdBox, #search').css('opacity', //'0.0');
     $('html, body').animate({
         scrollTop: $("#home").offset().top
     }, 1000);
+    $('#signIn, #signUp, #crowdBox, #search').fadeOut('slow');
 });
 
-
-$("#bottomCenter").click(function(){
-    $('#search').css('opacity', '1.0');
-    $('html, body').animate({
-        scrollTop: $($.attr(this, '#search')).offset().top
-    }, 1000);
+$('#leftCenter').click(function(){    
+        $('#signIn').fadeIn('slow');
 });
 
-document.getElementById("bottomCenter").style.opacity="1";
+$('#rightCenter').click(function(){    
+        $('#signUp').fadeIn('slow');
+});
+
+/*$('#search').click(function(){    
+    $('#search').fadeOut('slow', function(){
+        $('#bottomCenter').fadeIn('slow');
+    });
+});*/
